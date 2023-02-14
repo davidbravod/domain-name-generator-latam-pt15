@@ -1,1 +1,11 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+.custom-ol {
+  list-style-position: inside;
+}
+
+.custom-ol li {
+  text-indent: -1em;
+  padding-left: 1em;
+  text-align: center;
+}
